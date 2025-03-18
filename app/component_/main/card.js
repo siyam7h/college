@@ -61,6 +61,20 @@ export function createEventCard() {
     )
 }
 
+export function createUpcomingEventCard() {
+    return(
+        <div>
+            <Images.createImage1/>
+            <div>
+                <div></div>
+                <Text.createTertiaryHeading/>
+                {/* uncompleted */}
+                <Text.crateText/>
+            </div>
+        </div>
+    )
+}
+
 export function crateSubscribeCard() {
     return(
         <div>
